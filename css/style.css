@@ -875,21 +875,6 @@ footer li {
 
 /* Section 1 */ 
   
-
-.conteneur_2 {
-  position: initial;
-  padding-right: 0px;
-  margin-left: -10px;
-}
-
-.card_2 {
-  width: 90%;
-} 
-
-.conteneur_2_title i {
-  padding-right: 30px;
-}
-
   #section_1 h1 {
     text-align: center;
   }
@@ -915,6 +900,20 @@ footer li {
     box-shadow: 1px 1px 10px lightgrey;
     width: auto;
     margin-left: -5px;
+  }
+
+  .conteneur_2 {
+    position: initial;
+    padding-right: 0px;
+    margin-left: -10px;
+  }
+  
+  .card_2 {
+    width: 90%;
+  } 
+  
+  .conteneur_2_title i {
+    padding-right: 30px;
   }
 
   .card_2 {
