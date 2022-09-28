@@ -552,6 +552,9 @@ section img {
   margin-left: 5px
 }
 
+#section_1 h1 {
+  margin-left: 12px;
+}
 
 
 /* Conteneur 1 */ 
@@ -674,6 +677,10 @@ section img {
 
 #section_2 {
   margin-top: 50px;
+}
+
+#section_2 h1 {
+  margin-left: 12px;
 }
 
 #section_2 img {
@@ -875,9 +882,7 @@ footer li {
 
 /* Section 1 */ 
   
-  #section_1 h1 {
-    text-align: center;
-  }
+  
 
   .conteneur_1 {
     background-color: white;
@@ -929,9 +934,7 @@ footer li {
   /* Section 2 */ 
 
 
-  #section_2 h1 {
-    text-align: center;
-  }
+  
 
   .section_2_box {
     flex-direction: column;
