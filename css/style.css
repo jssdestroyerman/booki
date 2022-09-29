@@ -365,7 +365,6 @@ body {
   font-family: 'Raleway', sans-serif;
   width: 90%;
   margin: auto;
-  overflow-x: hidden; 
 }
 
 a {
@@ -510,11 +509,11 @@ h1 {
 
 .filter_class i {
   background-color: #DEEBFF;
-  border: #DEEBFF 15px solid;
+  border: #DEEBFF 17px solid;
   border-radius: 40px;
   color: #0065FC;
   position: relative;
-  right: 3px;
+  right: 2px;
 }
 
 .filter_class i:hover {
@@ -626,6 +625,7 @@ section img {
 }
 
 .afficher_plus {
+  margin-left: 20px;
   font-weight: bold;
 }
 
@@ -640,10 +640,8 @@ section img {
 .conteneur_2 {
   background-color: #F2F2F2;
   border-radius: 20px;
-  padding: 20px;
-  width: 30%;
+  padding: 20px 50px 20px 20px;
   margin-left: 30px;
-  padding-right: 59px;
 }
 
 .conteneur_2_title {
@@ -821,17 +819,14 @@ footer li {
   }
 
   .conteneur_2 {
-    margin-left: 0px;
+    margin-left: -4%;
     width: 100%;
-    position: relative;
-    right: 40px;
   }
 
   .conteneur_1 {
     width: 105%;
     margin-top: 30px;
-    position: relative;
-    right: 40px;
+    margin-left: -5%;
   }
 
   .card_2 img {
@@ -952,11 +947,9 @@ footer li {
 
   .conteneur_1 {
     background-color: white;
-    margin: 0px;
-    position: initial;
     width: 100%;
-    margin-left: -5px;
-    padding: 10px;
+    padding: 0px;
+    margin-left: 0px;
   }
 
   .box_line_1 {
@@ -974,18 +967,21 @@ footer li {
 
   .card_1 {
     box-shadow: 1px 1px 10px lightgrey;
-    width: auto;
+    width: 100%;
     margin-left: -5px;
+    margin-right: 20px;
   }
 
   .conteneur_2 {
+    width: 100%;
     padding:0px;
-    padding: 20px 40px 40px 40px;
+    padding: 5% 5% 5% 5%;
+    margin-left: -5%;
     border-radius: 0;
   }
   
   .card_2 {
-    width: 95%;
+    width: 100%;
     margin: 0px;
     margin-top: 10px;
   } 
@@ -1009,6 +1005,8 @@ footer li {
   .section_2_box {
     flex-direction: column;
     margin-top: 30px;
+    margin-left: -20px;
+    margin-right: 20px;
   }
 
   .section_2_box img {
@@ -1016,13 +1014,13 @@ footer li {
   }
 
   .card_3 {
-    width: auto;
+    width: 100%;
     margin-top: auto;
     margin-bottom: auto;
   }
 
   .double_card {
-    width: auto;
+    width: 100%;
     margin-top: auto;
   }
 
