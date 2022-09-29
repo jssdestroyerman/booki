@@ -365,6 +365,7 @@ body {
   font-family: 'Raleway', sans-serif;
   width: 90%;
   margin: auto;
+  overflow-x: hidden; 
 }
 
 a {
@@ -451,6 +452,7 @@ h1 {
   border: #F2F2F2 2px solid;
   height: 44px;
   font-size: 22px;
+  padding-left: 10px;
 }
 
 #nav_search a {
@@ -483,7 +485,7 @@ h1 {
 .filter h1 {
   display: flex;
   margin-right: 20px;
-  margin-top: 17px;
+  margin-top: 22px;
   font-size: 19px;
 }
 
@@ -500,7 +502,7 @@ h1 {
 }
 
 .filter_class p {
-  padding: 0px 15px 0px 5px;
+  padding: 0px 20px 0px 10px;
   font-size: 15px;
   font-weight: bold;
   margin: 0;
@@ -508,7 +510,7 @@ h1 {
 
 .filter_class i {
   background-color: #DEEBFF;
-  border: #DEEBFF 19px solid;
+  border: #DEEBFF 15px solid;
   border-radius: 40px;
   color: #0065FC;
   position: relative;
@@ -556,6 +558,11 @@ section img {
   margin-left: 5px
 }
 
+.conteneur_2 .rating {
+  position: absolute;
+  bottom: 5px;
+}
+
 #section_1 h1 {
   margin-left: 12px;
 }
@@ -589,7 +596,7 @@ section img {
   width: 30%;
   background-color: white;
   border-radius: 20px;
-  border: white solid 10px;
+  border: white solid 5px;
   margin: 10px;
   box-shadow: 1px 1px 10px lightgrey;
 }
@@ -597,8 +604,8 @@ section img {
 .card_1 img {
   width: 100%;
   height: 110px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;        
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;        
 }
 
 .card_title {
@@ -653,7 +660,7 @@ section img {
   width: 100%;
   background-color: white;
   border-radius: 20px;
-  border: white solid 10px;
+  border: white solid 5px;
   display: flex;
   margin: 10px;
   box-shadow: 1px 1px 10px lightgrey;
@@ -664,16 +671,18 @@ section img {
 }
 
 .card_2 img{
-  width: 150px;
-  height: 120px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10%;
+  min-width: 150px;
+  max-width: 150px;
+  height: 130px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14%;
 }
 
 .card_text {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
+  position: relative;
 }
 
 
@@ -825,6 +834,11 @@ footer li {
     right: 40px;
   }
 
+  .card_2 img {
+    max-width: 150px;
+    min-width: 150px;
+  }
+
 
 }
 
@@ -840,10 +854,26 @@ footer li {
     align-items: center;
   }
 
+  #logo_nav nav {
+    width: 110%;
+  }
 
-  #logo_nav li:hover div {
+  #logo_nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #logo_nav li{
+    padding: 0;
+    width: 60%;
+    text-align: center;
+  }
+
+  #logo_nav li:hover div{
     top: 37px;
   }
+
 
   #logo_nav {
   color: #0065FC;
@@ -854,7 +884,8 @@ footer li {
   #grey_bar {
     height: 3px;
     background-color: #F2F2F2;
-    width: 100%
+    width: 110%;
+    margin-left: -5%;
   }
 
 
@@ -875,7 +906,7 @@ footer li {
 
   #nav_search input{
     font-size: 18px;
-    width: 110%;
+    width: 120%;
     outline: none;
     height: 52px;
   }
@@ -892,10 +923,9 @@ footer li {
   #loupe a {
     border-radius: 20px;
     width: 55%;
-    right: 0px;
+    height: 58px;
     position: relative;
     left: 10px;
-    height: 58px;
   }
 
   #loupe i {
@@ -919,10 +949,6 @@ footer li {
 
 /* Section 1 */ 
   
-  
-body {
-  overflow-x: hidden; 
-}
 
   .conteneur_1 {
     background-color: white;
@@ -953,26 +979,22 @@ body {
   }
 
   .conteneur_2 {
-    position: initial;
-    margin-left: -6%;
-    margin-right: -30%;
-    padding: 10px;
-    border-radius: 0px;
-    width: 106.5%;
+    padding:0px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 0;
   }
   
   .card_2 {
-    width: 90%;
+    width: 95%;
+    margin: 0px;
+    margin-top: 10px;
   } 
   
+
   .conteneur_2_title i {
     padding-right: 30px;
   }
 
-  .card_2 {
-    margin: 0px;
-    margin-top: 10px;
-  }
 
   .afficher_plus {
   margin-left: 10px;
