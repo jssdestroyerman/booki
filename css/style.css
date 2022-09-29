@@ -819,19 +819,26 @@ footer li {
   }
 
   .conteneur_2 {
-    margin-left: -4%;
+    margin-left: -2.5%;
+    margin-right: 4%;
     width: 100%;
+    padding: 2.5%;
   }
 
   .conteneur_1 {
-    width: 103.5%;
+    width: 100%;
     margin-top: 30px;
-    margin-left: -4%;
+    margin-left: -2.5%;
+    padding: 2.5%;
   }
 
   .card_2 img {
     max-width: 150px;
     min-width: 150px;
+  }
+
+  .card_2 {
+    width: 95%;
   }
 
 
