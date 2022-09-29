@@ -439,10 +439,10 @@ h1 {
 
 #nav_search i {
   display: flex;
-  padding: 15px;
+  padding: 15px 15px 15px 18px;
   background-color: #F2F2F2;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   font-size: 20px;
   align-items: center;
 }
@@ -451,6 +451,7 @@ h1 {
   border: #F2F2F2 2px solid;
   height: 44px;
   font-size: 22px;
+  padding-left: 10px;
 }
 
 #nav_search a {
@@ -483,33 +484,36 @@ h1 {
 .filter h1 {
   display: flex;
   margin-right: 20px;
-  margin-top: 17px;
+  margin-top: 13px;
   font-size: 19px;
 }
 
 .filter_box {
   display: flex;
+  width: 105%;
 }
 
 .filter_class {
   display: flex;
-  border: 2px solid #DEEBFF;
+  border: 2px solid #D9D9D9;
   border-radius: 40px;
   margin-right: 20px;
 }
 
 .filter_class p {
-  padding: 0px 12px 0px 5px;
-  font-size: 17px;
+  padding: 0px 20px 0px 10px;
+  font-size: 15px;
   font-weight: bold;
+  margin: 0;
 }
 
 .filter_class i {
   background-color: #DEEBFF;
-  border: #DEEBFF 19px solid;
+  border: #DEEBFF 17px solid;
   border-radius: 40px;
   color: #0065FC;
-  padding: px;
+  position: relative;
+  right: 2px;
 }
 
 .filter_class i:hover {
@@ -521,6 +525,7 @@ h1 {
 .filter_class a {
   display: flex;
   align-items: center;
+
 }
 
 
@@ -550,6 +555,11 @@ section img {
   font-size: 13px;
   margin-top: -5px;
   margin-left: 5px
+}
+
+.conteneur_2 .rating {
+  position: absolute;
+  bottom: 5px;
 }
 
 #section_1 h1 {
@@ -585,7 +595,7 @@ section img {
   width: 30%;
   background-color: white;
   border-radius: 20px;
-  border: white solid 10px;
+  border: white solid 5px;
   margin: 10px;
   box-shadow: 1px 1px 10px lightgrey;
 }
@@ -593,8 +603,8 @@ section img {
 .card_1 img {
   width: 100%;
   height: 110px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;        
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;        
 }
 
 .card_title {
@@ -615,6 +625,7 @@ section img {
 }
 
 .afficher_plus {
+  margin-left: 20px;
   font-weight: bold;
 }
 
@@ -629,10 +640,8 @@ section img {
 .conteneur_2 {
   background-color: #F2F2F2;
   border-radius: 20px;
-  padding: 20px;
-  width: 30%;
+  padding: 20px 50px 20px 20px;
   margin-left: 30px;
-  padding-right: 59px;
 }
 
 .conteneur_2_title {
@@ -649,7 +658,7 @@ section img {
   width: 100%;
   background-color: white;
   border-radius: 20px;
-  border: white solid 10px;
+  border: white solid 5px;
   display: flex;
   margin: 10px;
   box-shadow: 1px 1px 10px lightgrey;
@@ -660,16 +669,18 @@ section img {
 }
 
 .card_2 img{
-  width: 150px;
-  height: 120px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10%;
+  min-width: 150px;
+  max-width: 150px;
+  height: 130px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14%;
 }
 
 .card_text {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
+  position: relative;
 }
 
 
@@ -808,17 +819,26 @@ footer li {
   }
 
   .conteneur_2 {
-    margin-left: 0px;
+    margin-left: -2.5%;
+    margin-right: 4%;
     width: 100%;
-    position: relative;
-    right: 40px;
+    padding: 2.5%;
   }
 
   .conteneur_1 {
-    width: 105%;
+    width: 100%;
     margin-top: 30px;
-    position: relative;
-    right: 40px;
+    margin-left: -2.5%;
+    padding: 2.5%;
+  }
+
+  .card_2 img {
+    max-width: 150px;
+    min-width: 150px;
+  }
+
+  .card_2 {
+    width: 95%;
   }
 
 
@@ -836,10 +856,26 @@ footer li {
     align-items: center;
   }
 
+  #logo_nav nav {
+    width: 110%;
+  }
 
-  #logo_nav li:hover div {
+  #logo_nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #logo_nav li{
+    padding: 0;
+    width: 60%;
+    text-align: center;
+  }
+
+  #logo_nav li:hover div{
     top: 37px;
   }
+
 
   #logo_nav {
   color: #0065FC;
@@ -850,7 +886,8 @@ footer li {
   #grey_bar {
     height: 3px;
     background-color: #F2F2F2;
-    width: 100%
+    width: 110%;
+    margin-left: -5%;
   }
 
 
@@ -860,11 +897,22 @@ footer li {
   #nav_search {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+  }
+
+  #nav_search i {
+    width: 5%;
+    height: 40%;
   }
 
   #nav_search input{
-    font-size: 15px;
+    font-size: 18px;
+    width: 120%;
+    outline: none;
+    height: 52px;
   }
+
 
   #search {
     display: none;
@@ -874,23 +922,41 @@ footer li {
     display: flex;
   }
 
-  #loupe i {
-    background-color: #0065FC;
-    font-size: 17px;
+  #loupe a {
+    border-radius: 20px;
+    width: 55%;
+    height: 58px;
+    position: relative;
+    left: 10px;
   }
+
+  #loupe i {
+    background-color: transparent;
+    font-size: 17px;
+    position: relative;
+    right: 7px;
+  }
+
+
+
+  /* Filter */ 
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
 
 
 /* Section 1 */ 
   
-  
 
   .conteneur_1 {
     background-color: white;
-    margin: 0px;
-    position: initial;
     width: 100%;
-    margin-left: -5px;
-    padding: 10px;
+    padding: 0px;
+    margin-left: 0px;
   }
 
   .box_line_1 {
@@ -901,30 +967,37 @@ footer li {
     flex-direction: column;
   }
 
+  .box_line_3 {
+    display: flex;
+    align-items: center;
+  }
+
   .card_1 {
     box-shadow: 1px 1px 10px lightgrey;
-    width: auto;
+    width: 100%;
     margin-left: -5px;
+    margin-right: 20px;
   }
 
   .conteneur_2 {
-    position: initial;
-    padding-right: 0px;
-    margin-left: -10px;
+    width: 100%;
+    padding:0px;
+    padding: 5% 5% 5% 6%;
+    margin-left: -5.5%;
+    border-radius: 0;
   }
   
   .card_2 {
-    width: 90%;
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
   } 
   
+
   .conteneur_2_title i {
     padding-right: 30px;
   }
 
-  .card_2 {
-    margin: 0px;
-    margin-top: 10px;
-  }
 
   .afficher_plus {
   margin-left: 10px;
@@ -939,6 +1012,8 @@ footer li {
   .section_2_box {
     flex-direction: column;
     margin-top: 30px;
+    margin-left: -20px;
+    margin-right: 20px;
   }
 
   .section_2_box img {
@@ -946,13 +1021,13 @@ footer li {
   }
 
   .card_3 {
-    width: auto;
+    width: 100%;
     margin-top: auto;
     margin-bottom: auto;
   }
 
   .double_card {
-    width: auto;
+    width: 100%;
     margin-top: auto;
   }
 
@@ -976,8 +1051,8 @@ footer li {
 
   .footer_display {
     flex-direction: column;
-    padding-left: 20px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    padding-left: 40px;
+    margin-left: -6%;
+    margin-right: -5.5%;
   }
 }
