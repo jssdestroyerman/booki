@@ -824,9 +824,9 @@ footer li {
   }
 
   .conteneur_1 {
-    width: 105%;
+    width: 103.5%;
     margin-top: 30px;
-    margin-left: -5%;
+    margin-left: -4%;
   }
 
   .card_2 img {
@@ -975,8 +975,8 @@ footer li {
   .conteneur_2 {
     width: 100%;
     padding:0px;
-    padding: 5% 5% 5% 5%;
-    margin-left: -5%;
+    padding: 5% 5% 5% 6%;
+    margin-left: -5.5%;
     border-radius: 0;
   }
   
@@ -1044,7 +1044,7 @@ footer li {
 
   .footer_display {
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 40px;
     margin-left: -6%;
     margin-right: -5.5%;
   }
